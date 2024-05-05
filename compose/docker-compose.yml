@@ -2,7 +2,7 @@
 version: "3.9"
 
 x-podman: &podman
-  userns_mode: keep-id
+  # userns_mode: keep-id
   security_opt:
     - "label=disable"
 
